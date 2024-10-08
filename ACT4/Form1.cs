@@ -112,7 +112,7 @@ namespace ACT4
                         e.Graphics.FillRectangle(Brushes.Black, i * side, j * side, side, side);
                     }
                     // draw queens
-                    if (j == states[bestStateIdx].Y[i])
+                    if (j == startState.Y[i])
                         e.Graphics.FillEllipse(Brushes.Fuchsia, i * side, j * side, side, side);
                 }
             }
